@@ -1,0 +1,9 @@
+{
+	"name": "prompt-begone",
+	"description": "Controls login news portal window visibility on login.",
+	"options": {
+		"settingsVersion": 1,
+		"settingsFile": "config.json",
+		"settingsMigrator": "config_generator.js"
+	}
+}
