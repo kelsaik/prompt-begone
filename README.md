@@ -18,6 +18,12 @@ The default configuration of this mod prevents the login news portal window from
 | ------- | ----------- |
 | !promptbegone | Toggles first-login prompt visibility. Enabling it will show the window for your next first-session login. Disabling it will always block the window from popping up.|
 
+***
+### Safety
+> [!IMPORTANT]
+> This module does not in any way craft packets or modify any packet data. All it does is wait for the first instance of the packet that controls the portal window (`S_RESPONSE_SERVER_ADMINTOOL_AWESOMIUM_URL`) and prevents it from being received by your client.\
+> To put it plainly, it is totally safe to use.
 
+Since this module should never require maintenance or updates to maintain functionality, I have chosen to not make this mod auto-update compatible (which prevents deploying code changes to the mod in the future). The mod you download from this repository will remain as-is forever.
 
 
